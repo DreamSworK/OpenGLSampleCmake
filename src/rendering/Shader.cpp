@@ -1,5 +1,5 @@
 /** 
- * Copyright (C) 2018 Tomasz Ga³aj
+ * Copyright (C) 2018 Tomasz GaÂ³aj
  **/
 
 #include "Shader.h"

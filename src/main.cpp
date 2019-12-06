@@ -1,10 +1,11 @@
 /** 
- * Copyright (C) 2018 Tomasz Ga³aj
+ * Copyright (C) 2018 Tomasz GaÂ³aj
  **/
 
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <utilities/glfw_utilities.h>
 
 #define  GLM_FORCE_RADIANS
 #include <glm/glm.hpp>
@@ -77,7 +78,7 @@ int init()
     /* Set the viewport */
     glClearColor(0.6784f, 0.8f, 1.0f, 1.0f);
     glViewport(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
-
+    centerWindow(window);
     glEnable(GL_DEPTH_TEST);
 
     return true;
