@@ -1,12 +1,12 @@
 /** 
- * Copyright (C) 2018 Tomasz Ga³aj
+ * Copyright (C) 2018 Tomasz GaÂ³aj
  **/
 
 #pragma once
 
 #include <glad/glad.h>
-#include <glm\glm.hpp>
-
+#include <glm/glm.hpp>
+#include <string>
 #include <map>
 
 class Shader
